@@ -1,0 +1,1 @@
+Eine Funktion $$ f: X \to \mathbb{R} $$ ist genau dann stetig, wenn für jede offene Menge $$ B \subseteq \mathbb{R} $$ gilt, dass $$ f^{-1}(B) $$ eine offene Menge in $$ X $$ ist.
