@@ -5,4 +5,4 @@
 4. [[Offene Mengen]]
 5. [[Abgeschlossene Mengen]]
 6. [[Offene Überdeckungen]]
-7. 
+7. [[Endliche Teilüberdeckungen]]
