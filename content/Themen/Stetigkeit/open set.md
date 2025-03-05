@@ -1,3 +1,6 @@
+---
+title: Offene Mengen
+---
 ## Definition
 Eine Menge $A\subseteq \mathbb{R}$ heißt ==offen==, wenn es für alle $x \in A$ eine $\delta$-Umgebung um $x$ gibt, die in $A$ enthalten ist, also: <br>$U_{\delta}(x)=]x-\delta,x+\delta[\subseteq A$.
 
