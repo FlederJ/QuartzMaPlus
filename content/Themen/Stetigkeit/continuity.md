@@ -5,8 +5,7 @@ title: Stetigkeit
 
 
 Eine Funktion $f:A\to\mathbb{R}$ heißt stetig an der Stelle $c\in A$, wenn eine der folgenden äquivalenten Bedingungen gilt:
-1. Für alle $\epsilon>0$ existiert ein $\delta>0$, sodass für alle $x\in A$ mit $|x-c|<\delta$ gilt: 
-   $|f(x)-f(c)| < \epsilon$ (metrische Stetigkeit)
+1. $\forall\epsilon>0:\exists\delta>0:\forall x \in A:|x-c|<\delta: |f(x)-f(c)| < \epsilon$ (metrische Stetigkeit)
 2. Der Grenzwert $\lim_{x \to c} f(x) = f(c)$ existiert
 3. Für alle Folgen $(x_n)\subseteq A$ mit $x_n \to c$ gilt:
    $\lim_{n \to \infty} f(x_n) = f(c)$ (Folgenstetigkeit)
@@ -24,7 +23,7 @@ Eine Funktion $f:A\to\mathbb{R}$ heißt stetig an der Stelle $c\in A$, wenn eine
   
 
 >[!info] Proposition
-> Seien $ f, g: A \to \mathbb{R} $ stetig in $ c \in A $. Dann sind auch folgende Funktionen stetig in $ c $:
+> Seien $f, g: A \to \mathbb{R}$ stetig in $c \in A$. Dann sind auch folgende Funktionen stetig in $c$:
   >1. $k\cdot f(x)$ für $k\in\mathbb{R}$
   >2. $f(x)+g(x)$
   >3. $f(x)\cdot g(x)$
@@ -32,8 +31,3 @@ Eine Funktion $f:A\to\mathbb{R}$ heißt stetig an der Stelle $c\in A$, wenn eine
 
 >[!info] Proposition
 >Seien $A,B\subseteq \mathbb{R}$ und $g:A\to B$ und $f:B\to \mathbb{R}$. Wenn $g$ stetug in $c\in A$ ist und $f$ stetig in $g(c)\in B$ ist, dann ist $f\circ g$ stetig in $c$.
-
----
-
->[!TODO] LIST BACKLINKS
->important and interesting idea: list the (important) backlinks to each document

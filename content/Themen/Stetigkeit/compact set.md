@@ -14,7 +14,3 @@ Eine Menge $A$ heißt ==kompakt==, wenn jede [[open cover|offene Überdeckung]] 
 ## Beispiele
 >[!example]
 >
-
----
->[!TODO] LIST BACKLINKS
->important and interesting idea: list the (important) backlinks to each document

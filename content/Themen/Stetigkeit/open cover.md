@@ -13,9 +13,3 @@ Wenn $A\subseteq\bigcup_{\alpha \in S}U_{\alpha}$ gilt, dann heißt $\{ U_{\alph
 ---
 ## Beispiele
 >[!example]
-
-
----
-
->[!TODO] LIST BACKLINKS
->important and interesting idea: list the (important) backlinks to each document

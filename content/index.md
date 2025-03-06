@@ -4,6 +4,18 @@ title: Themenübersicht
 
 Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums.
 
+### Reelle Zahlen
+
+
+### Folgen
+1. [[sequence|Folgen]]
+2. [[convergent sequence|Konvergente Folgen]]
+3. 
+4. 
+
+
+### Reihen
+
 ### Stetigkeit
 1. [[function limits|Funktionsgrenzwerte]]
 2. [[cluster point|Häufungspunkte]]

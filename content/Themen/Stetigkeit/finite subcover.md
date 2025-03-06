@@ -14,7 +14,3 @@ Sei $\{U_{\alpha}|\alpha \in S\}$ eine [[open cover|offene Überdeckung]] von A.
 >[!example]
 >
 
----
->[!TODO] LIST BACKLINKS
->important and interesting idea: list the (important) backlinks to each document
-

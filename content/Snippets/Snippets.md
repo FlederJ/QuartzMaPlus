@@ -16,7 +16,7 @@
 	{trigger: "@G", replacement: "\\Gamma", options: "mA"},
 	{trigger: "@d", replacement: "\\delta", options: "mA"},
 	{trigger: "@D", replacement: "\\Delta", options: "mA"},
-	{trigger: "@e", replacement: "\\epsilon", options: "mA"},
+	{trigger: "@e", replacement: "\\varepsilon", options: "mA"},
 	{trigger: ":e", replacement: "\\varepsilon", options: "mA"},
 	{trigger: "@z", replacement: "\\zeta", options: "mA"},
 	{trigger: "@t", replacement: "\\theta", options: "mA"},

@@ -17,7 +17,3 @@ Eine Menge $A\subseteq \mathbb{R}$ heißt ==abgeschlossen==, wenn die Komplement
 >[!example]
 >$A=\mathbb{R}$ ist abgeschlossen.
 >$A=[a,b], \forall a,b\in \mathbb{R}$ ist abgeschlossen.
-
----
->[!TODO] LIST BACKLINKS
->important and interesting idea: list the (important) backlinks to each document

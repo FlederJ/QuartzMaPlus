@@ -6,4 +6,7 @@
 	// Links
 	 {trigger:"stetig", replacement:"[[continuity|stetig]]", options:"A"},
 	 {trigger:"kompakt", replacement:"[[compact set|kompakt]]", options:"A"},
+	 {trigger:"offen", replacement:"[[open set|offen]]", options:"A"},
+	 {trigger:"abgeschlossen", replacement:"[[closed set|abgeschlossen]]", options:"A"},
+	 
 ]
