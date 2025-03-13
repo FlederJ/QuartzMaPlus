@@ -3,7 +3,6 @@ title: Stetigkeit
 ---
 ## Definition
 
-
 Eine Funktion $f:A\to\mathbb{R}$ heißt stetig an der Stelle $c\in A$, wenn eine der folgenden äquivalenten Bedingungen gilt:
 1. $\forall\epsilon>0:\exists\delta>0:\forall x \in A:|x-c|<\delta: |f(x)-f(c)| < \epsilon$ (metrische Stetigkeit)
 2. Der Grenzwert $\lim_{x \to c} f(x) = f(c)$ existiert
@@ -30,4 +29,4 @@ Eine Funktion $f:A\to\mathbb{R}$ heißt stetig an der Stelle $c\in A$, wenn eine
   >4. $\frac{f(x)}{g(x)}$, vorausgesetzt $g(c)\neq0$
 
 >[!info] Proposition
->Seien $A,B\subseteq \mathbb{R}$ und $g:A\to B$ und $f:B\to \mathbb{R}$. Wenn $g$ stetug in $c\in A$ ist und $f$ stetig in $g(c)\in B$ ist, dann ist $f\circ g$ stetig in $c$.
+>Seien $A,B\subseteq \mathbb{R}$ und $g:A\to B$ und $f:B\to \mathbb{R}$. Wenn $g$ [[Stetigkeit|stetig]] in $c\in A$ ist und $f$ stetig in $g(c)\in B$ ist, dann ist $f\circ g$ stetig in $c$.

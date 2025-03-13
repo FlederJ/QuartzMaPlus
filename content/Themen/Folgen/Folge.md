@@ -1,7 +1,6 @@
 ---
 title: Folgen
 ---
-
 ## Definition
 Eine reelle ==Folge== ist eine Abbildung $a: \mathbb{N}\to \mathbb{R}$, also eine geordnete Liste abzählbar unendlich vieler reeller Zahlen.
 
