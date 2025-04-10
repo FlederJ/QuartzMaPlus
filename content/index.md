@@ -24,7 +24,7 @@ Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums
 
 ### Stetigkeit
 1. [[Funktionengrenzwert|Funktionsgrenzwerte]]
-2. [[Häfugungspunkt|Häufungspunkte]]
+2. [[Häufungspunkt|Häufungspunkte]]
 3. [[Stetigkeit|Stetigkeit]]
 4. [[Offene Menge|Offene Mengen]]
 5. [[Abgeschlossene Menge|Abgeschlossene Mengen]]
@@ -34,4 +34,4 @@ Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums
 9. [[Gleichmäßige Stetigkeit]] 
 
 ### Differenzierbare Funktionen
-1. 
+1. [[Differenzierbarkeit]]

@@ -13,13 +13,14 @@
 	
 
 	// Links
+	
 	// reelle Zahlen
 	{trigger: "Körper ", replacement: "[[Körper]] ", options: "A"},
 	{trigger: "geordneter Körper ", replacement: "[[geordneter Körper]] ", options: "A"},
 	{trigger: "Supremum ", replacement: "[[Supremum]] ", options: "A"},
 	{trigger: "Infimum ", replacement: "[[Infimum]] ", options: "A"},
 
-
+	{trigger: "Häufungspunkt ", replacement: "[[Häufungspunkt]] ", options: "A"},
 
 
 
@@ -33,5 +34,6 @@
 	 {trigger:"Konvergenz ", replacement:"[[Konvergente Folgen|Konvergenz]] ", options:"A"},
 	 {trigger:"gleichmäßig stetig ", replacement:"[[Gleichmäßige Stetigkeit|gleichmäßig stetig]] ", options:"A"},
 	 
-	 
+	 // Differenzierbarkeit
+	 {trigger:"differenzierbar", replacement:"[[Differenzierbarkeit|differenzierbar]] ", options:"A"},
 ]
