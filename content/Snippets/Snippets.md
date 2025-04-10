@@ -110,6 +110,7 @@
     {trigger: "...", replacement: "\\dots", options: "mA"},
     {trigger: "nabl", replacement: "\\nabla", options: "mA"},
 	{trigger: "del", replacement: "\\delta", options: "mA"},
+	{trigger: "eps", replacement: "\\varepsilon", options: "mA"},	
     {trigger: "xx", replacement: "\\times", options: "mA"},
     {trigger: "**", replacement: "\\cdot", options: "mA"},
     {trigger: "para", replacement: "\\parallel", options: "mA"},
@@ -140,7 +141,7 @@
     {trigger: "sup=", replacement: "\\supseteq", options: "mA"},
 	{trigger: "eset", replacement: "\\emptyset", options: "mA"},
 	{trigger: "set", replacement: "\\{ $0 \\}$1", options: "m"},
-	{trigger: "e\\xi sts", replacement: "\\exists", options: "mA", priority: 1},
+	{trigger: "exists", replacement: "\\exists", options: "mA", priority: 1},
 
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
 	{trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},

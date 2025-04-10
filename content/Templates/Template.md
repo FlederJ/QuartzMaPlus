@@ -11,5 +11,5 @@ title: Titel
 ---
 
 ## Beispiele
->[!example]Beispiel
+>[!example] Beispiel
 >

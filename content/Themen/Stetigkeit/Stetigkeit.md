@@ -3,7 +3,7 @@ title: Stetigkeit
 ---
 ## Definition
 
-Eine Funktion $f:A\to\mathbb{R}$ heißt stetig an der Stelle $c\in A$, wenn eine der folgenden äquivalenten Bedingungen gilt:
+Eine Funktion $f:A\to\mathbb{R}$ heißt ==stetig an der Stelle c== mit $c\in A$, wenn eine der folgenden äquivalenten Bedingungen gilt:
 1. $\forall\epsilon>0:\exists\delta>0:\forall x \in A:|x-c|<\delta: |f(x)-f(c)| < \epsilon$ (metrische Stetigkeit)
 2. Der Grenzwert $\lim_{x \to c} f(x) = f(c)$ existiert
 3. Für alle Folgen $(x_n)\subseteq A$ mit $x_n \to c$ gilt:

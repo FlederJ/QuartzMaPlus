@@ -13,6 +13,9 @@ Also gilt: $\forall n\in \mathbb{N}:L\leq a_{n}\leq U$, wobei $L,U\in \mathbb{R}
 >[!info] Beschränkte Folge $\cdot$ Nullfolge = Nullfolge
 >Sei $(a_{n})\to {0}$ eine Nullfolge und $(b_{n})$ eine beschränkte Folge. Dann ist die Produktfolge $(a_{n}\cdot b_{n})$ auch eine Nullfolge.
 
+>[!info] [[Supremum]]/[[Infimum]] als Grenzwert
+>Sei $S\subseteq \mathbb{R}$ nach oben beschränkt. Dann existiert eine [[Folge]] $a_{n}$ mit $\forall n\in N:a_{n}\in S$ und $\lim_{ n \to \infty }a_{n}=\sup(S)$.
+
 
 ---
 
