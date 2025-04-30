@@ -1,7 +1,8 @@
 [
     // Math mode
-	{trigger: "mk", replacement: "$$0$", options: "tA"},
-	{trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
+	{trigger: "mk", replacement: "\$\$0\$", options: "tA"},
+	{trigger: "dm", replacement: "$\$\n\$0\n\$\$", options: "tA"},
+	
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
 
     // Dashes
@@ -44,7 +45,7 @@
 	{trigger: "cb", replacement: "^{3}", options: "mA"},
 	{trigger: "rd", replacement: "^{$0}$1", options: "mA"},
 	{trigger: "_", replacement: "_{$0}$1", options: "mA"},
-	{trigger: "sts", replacement: "_\\text{$0}", options: "mA"},
+	{trigger: "sts", replacement: "_\\text{$0}", options: "m"},
 	{trigger: "sq", replacement: "\\sqrt{ $0 }$1", options: "mA"},
 	{trigger: "//", replacement: "\\frac{$0}{$1}$2", options: "mA"},
 	{trigger: "ee", replacement: "e^{ $0 }$1", options: "mA"},
@@ -72,14 +73,14 @@
 	{trigger: "([a-zA-Z])vec", replacement: "\\vec{[[0]]}", options: "rmA"},
     {trigger: "([a-zA-Z]),\\.", replacement: "\\mathbf{[[0]]}", options: "rmA"},
 	{trigger: "([a-zA-Z])\\.,", replacement: "\\mathbf{[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK}),\\.", replacement: "\\boldsymbol{\\[[0]]}", options: "rmA"},
-	{trigger: "\\\\(${GREEK})\\.,", replacement: "\\boldsymbol{\\[[0]]}", options: "rmA"},
+	{trigger: "\\\\(${GREEK}),\\.", replacement: "\\boldsymbol{\\[[0]]}", options: "rm"},
+	{trigger: "\\\\(${GREEK})\\.,", replacement: "\\boldsymbol{\\[[0]]}", options: "rm"},
 
 	{trigger: "hat", replacement: "\\hat{$0}$1", options: "mA"},
     {trigger: "bar", replacement: "\\bar{$0}$1", options: "mA"},
 	{trigger: "dot", replacement: "\\dot{$0}$1", options: "mA", priority: -1},
 	{trigger: "ddot", replacement: "\\ddot{$0}$1", options: "mA"},
-	{trigger: "cdot", replacement: "\\cdot", options: "mA"},
+	{trigger: "cdot", replacement: "\\cdot ", options: "mA"},
 	{trigger: "tilde", replacement: "\\tilde{$0}$1", options: "mA"},
 	{trigger: "und", replacement: "\\underline{$0}$1", options: "mA"},
 	{trigger: "vec", replacement: "\\vec{$0}$1", options: "mA"},
@@ -156,11 +157,11 @@
     // For example, ${GREEK} below is shorthand for "alpha|beta|gamma|Gamma|delta|..."
     // You can edit snippet variables under the Advanced snippet settings section.
 
-	{trigger: "([^\\\\])(${GREEK})", replacement: "[[0]]\\[[1]]", options: "rmA", description: "Add backslash before Greek letters"},
+	{trigger: "([^\\\\])(${GREEK})", replacement: "[[0]]\\[[1]]", options: "rm", description: "Add backslash before Greek letters"},
 	{trigger: "([^\\\\])(${SYMBOL})", replacement: "[[0]]\\[[1]]", options: "rmA", description: "Add backslash before symbols"},
 
     // Insert space after Greek letters and symbols
-	{trigger: "\\\\(${GREEK}|${SYMBOL}|${MORE_SYMBOLS})([A-Za-z])", replacement: "\\[[0]] [[1]]", options: "rmA"},
+	{trigger: "\\\\(${GREEK}|${SYMBOL}|${MORE_SYMBOLS})([A-Za-z])", replacement: "\\[[0]] [[1]]", options: "rm"},
 	{trigger: "\\\\(${GREEK}|${SYMBOL}) sr", replacement: "\\[[0]]^{2}", options: "rmA"},
 	{trigger: "\\\\(${GREEK}|${SYMBOL}) cb", replacement: "\\[[0]]^{3}", options: "rmA"},
 	{trigger: "\\\\(${GREEK}|${SYMBOL}) rd", replacement: "\\[[0]]^{$0}$1", options: "rmA"},
@@ -275,7 +276,7 @@
     // {trigger: /([^'])\b([B-HJ-Zb-z])\b([\n\s.,?!:'])/, replacement: "[[0]]$[[1]]$[[2]]", options: "tA"},
 
     // Automatically convert Greek letters in text to math.
-    // {trigger: "(${GREEK})([\\n\\s.,?!:'])", replacement: "$\\[[0]]$[[1]]", options: "rtAw"},
+    // {trigger: "(${GREEK})([\\n\\s.,?!:'])", replacement: "$\\[[0]]$[[1]]", options: "rtw"},
 
     // Automatically convert text of the form "x=2" and "x=n+1" to math.
     // {trigger: /([A-Za-z]=\d+)([\n\s.,?!:'])/, replacement: "$[[0]]$[[1]]", options: "rtAw"},

@@ -18,6 +18,11 @@ Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums
 4. [[Divergente Folgen]]
 5. [[Beschränkte Folge]]
 6. [[Sandwichsatz]]
+7. [[Monotone Folgen]]
+8. [[Monotone Konvergenz]]
+9. [[Teilfolgen]]
+10. [[Häufungswerte]]
+11. 
 
 ### Reihen
 1. 
@@ -35,3 +40,5 @@ Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums
 
 ### Differenzierbare Funktionen
 1. [[Differenzierbarkeit]]
+2. [[beste lineare Approximation]]
+3. 
