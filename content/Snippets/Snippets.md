@@ -113,7 +113,7 @@
 	{trigger: "del", replacement: "\\delta", options: "mA"},
 	{trigger: "eps", replacement: "\\varepsilon", options: "mA"},	
     {trigger: "xx", replacement: "\\times", options: "mA"},
-    {trigger: "**", replacement: "\\cdot", options: "mA"},
+    {trigger: "**", replacement: "\\cdot ", options: "mA"},
     {trigger: "para", replacement: "\\parallel", options: "mA"},
 
 	{trigger: "===", replacement: "\\equiv", options: "mA"},
