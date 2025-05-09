@@ -41,4 +41,4 @@ Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums
 ### Differenzierbare Funktionen
 1. [[Differenzierbarkeit]]
 2. [[beste lineare Approximation]]
-3. 
+3. [[Ableitungsregeln]]

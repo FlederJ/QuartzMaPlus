@@ -9,7 +9,12 @@ $$ den ==Häufungswert== von $(a_{n})$.
 
 ---
 ## Propositionen
->[!info] Proposition
+>[!info] Häufungswerte [[Konvergente Folgen|konvergenter]] Folgen
+>Sei $(a_{n})\to a$ eine [[Konvergente Folgen|konvergente]] Folge. 
+>Dann konvergiert auch jede [[Teilfolgen|Teilfolge]] $(a_{n_{k}})$ gegen $a$.
+>Also ist $a$ der einzige Häufungswert von $(a_{n})$.
+
+
 
 ---
 

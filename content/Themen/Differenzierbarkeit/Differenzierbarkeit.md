@@ -22,6 +22,10 @@ Die Funktion $f'$ heißt ==1. Ableitung von f==. Die Notation $\frac{d}{dx}f(x)=
 f(x)=f(c)+L(x-c)+r(x) \text{ und } \lim_{ x \to c }\frac{r(x)}{|x-c|}=0
 $$ In diesem Fall ist $L=f'(c)$.
 
+>[!info] [[Differenzierbarkeit|differenzierbar]]  $\implies$ [[Stetigkeit|stetig]].
+>Wenn $f:D\to\mathbb{R}$ an einer Stelle $c\in D$ [[Differenzierbarkeit|differenzierbar]] ist, dann ist $f$ auch [[Stetigkeit|stetig]] in $c$.
+>[[Differenzierbarkeit impliziert Stetigkeit - Beweis|Beweis]]
+
 
 
 
