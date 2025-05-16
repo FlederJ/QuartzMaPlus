@@ -5,14 +5,20 @@
 	{trigger: "circ", replacement: "\\circ", options: "mA"},
 	{trigger: "check", replacement: "\\check{$0}$1", options: "mA"},
 	{trigger: "ex", replacement: "\\exists ", options: "m"},
-	{trigger: "quad", replacement: "\\quad ", options: "m"},
+	{trigger: "quad", replacement: "\\quad ", options: "mA"},
 	{trigger: "zz", replacement: "\\mathrm{Z\\kern-.3em\\raise-0.5ex\\hbox\{Z\}}: ", options: "mA"},
 	
 	 // Umlaute
 	{trigger: "ä", replacement: "{\\\"a} ", options: "t"},
 	{trigger: "ö", replacement: "{\\\"o} ", options: "t"},
 	{trigger: "ü", replacement: "{\\\"u} ", options: "t"},
-	 
+
+	// Greek Letters
+	{trigger: "xi", replacement: "\\xi", options: "mA"},
+	{trigger: "eps", replacement: "\\varepsilon", options: "mA"},
+	{trigger: "del", replacement: "\\delta", options: "mA"},
+	
+	
 	// Sets and stuff
 	{trigger: "KK", replacement: "\\mathbb{K}", options: "mA"},
 	{trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
