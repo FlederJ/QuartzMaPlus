@@ -7,6 +7,7 @@
 	{trigger: "ex", replacement: "\\exists ", options: "m"},
 	{trigger: "quad", replacement: "\\quad ", options: "mA"},
 	{trigger: "zz", replacement: "\\mathrm{Z\\kern-.3em\\raise-0.5ex\\hbox\{Z\}}: ", options: "mA"},
+	{trigger: "qed", replacement: "$\\ \\square$\n ", options: "A"},
 	
 	 // Umlaute
 	{trigger: "ä", replacement: "{\\\"a} ", options: "t"},

@@ -43,4 +43,7 @@ Mitschriften zum Mathe-Zusatz-Kurs im Jahrgang 11 des Käthe-Kollwitz-Gymnasiums
 2. [[beste lineare Approximation]]
 3. [[Ableitungsregeln]]
 4. [[Mittelwertsatz]]
-5. 
+5. [[Satz von Darboux]]
+6. [[Erweiterter Mittelwertsatz]]
+7. [[Regel von L'Hôpital|Exkurs L'Hôpital]]
+8. 
