@@ -2,7 +2,7 @@
 title: Mittelwertsatz
 ---
 > [!Note] Mittelwertsatz
-> Sei $f:[a,b]\to\mathbb{R}$ [[Stetigkeit|stetig]] auf $[a,b]$ und [[Differenzierbarkeit|differenzierbar]] in $]a,b[$. Dann gibt es ein $\xi \in]a,b[$ mit  $f(\xi) = \frac{f(b)-f(a)}{b-a}$
+> Sei $f:[a,b]\to\mathbb{R}$ [[Stetigkeit|stetig]] auf $[a,b]$ und [[Differenzierbarkeit|differenzierbar]] in $]a,b[$. Dann gibt es ein $\xi \in]a,b[$ mit  $f'(\xi) = \frac{f(b)-f(a)}{b-a}$
 
 ### Folgerungen:
 
